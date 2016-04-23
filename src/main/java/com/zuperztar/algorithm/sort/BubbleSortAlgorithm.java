@@ -2,15 +2,15 @@ package com.zuperztar.algorithm.sort;
 
 public class BubbleSortAlgorithm {
 
-    public static void bubbleSort(int[] arr) {
+    public static void bubbleSort(int[] data) {
         boolean switched;
         do {
             switched = false;
-            for (int i = 0; i < arr.length - 1; i++) {
-                if (arr[i + 1] < arr[i]) {
-                    int temp = arr[i + 1];
-                    arr[i + 1] = arr[i];
-                    arr[i] = temp;
+            for (int i = 0; i < data.length - 1; i++) {
+                if (data[i + 1] < data[i]) {
+                    int temp = data[i + 1];
+                    data[i + 1] = data[i];
+                    data[i] = temp;
                     switched = true;
                 }
             }
