@@ -66,7 +66,7 @@ public class UniqueCharacter {
             bChar[value] = true;
         }
         return true;
-    }
 
+    }
 
 }
